@@ -1,6 +1,6 @@
 # ItemRecommender
 
-Item Recommender based association rules mined on a dataset of transactions
+Item Recommender based association rules mined on a dataset of transactions. This was done using pythons pandas and Efficient-Apriori libraries
 
 # How To Use
 
