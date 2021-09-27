@@ -5,7 +5,7 @@ Item Recommender based association rules mined on a dataset of transactions
 # How To Use
 
 1. Run [association.py](https://github.com/erick576/ItemRecommender/blob/master/association.py) and enter your preferred min support and confidence (Ex : min_sup = 0.02, min_conf = 0.7)
-2. See association rules generated in [trans.csv](https://github.com/erick576/ItemRecommender/blob/master/trans.csv). These rules will be used to reccomend items for new transactions
+2. See association rules generated in [rules.csv](https://github.com/erick576/ItemRecommender/blob/master/rules.csv). These rules will be used to reccomend items for new transactions
 3. Run [reccomendItem.py](https://github.com/erick576/ItemRecommender/blob/master/reccomendItem.py) and enter a new transaction (Ex : '2345, 3245, 34556')
 4. The program should output items that are reccomended to you based on the items you just bought
 
