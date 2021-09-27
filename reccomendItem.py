@@ -25,7 +25,7 @@ Note that b is not recommended because it is in t and e is recommended only once
 '''
 
 # Take file with rules generated in association.py
-df = pd.read_csv("walmart_rules.csv")
+df = pd.read_csv("rules.csv")
 
 # Read the input file into a list of lists
 rules = []

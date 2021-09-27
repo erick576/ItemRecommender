@@ -1,16 +1,8 @@
-# Provided for Question 5, Assignment 1, Data Mining Course, York University
-
-###########################################################################################################
-# This file will read input data ( walmart_trans.csv ), generate frequent itemsets and association rules using
-# the efficient_apriori library. The association rules will be stored in 'walmart_rules.csv'
-###########################################################################################################
-
-
 from efficient_apriori import apriori
 import pandas as pd
 
 
-file =open('walmart_trans.csv', 'r')
+file =open('trans.csv', 'r')
 
 # Read the input file into a list of lists
 data_tr = []
@@ -43,4 +35,4 @@ for rule in rules:
 
 # Output the generated association rules to a csv file
 resultsdf = pd.DataFrame(results, columns=['Antecedent', 'Consequent', 'confidence','lift','support'])
-resultsdf.to_csv('walmart_rules.csv', index=False)
+resultsdf.to_csv('rules.csv', index=False)
